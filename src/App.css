@@ -1,0 +1,81 @@
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  margin: 0 80px;
+}
+
+/* navbar section*/
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* description section*/
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 70px 0;
+  align-items: flex-start;
+}
+
+.text-container {
+  text-align: left;
+  max-width: 60%;
+}
+
+.text-container p {
+  font-size: 20px;
+  color: #6b6868;
+  text-shadow: 0 2px 3px;
+  font-weight: 500;
+}
+
+.text-container img{
+  width: 5rem;
+}
+
+.image-container img {
+  width: 300px;
+}
+
+/* buttons section*/
+.buttons-container {
+  display: flex;
+  max-width: 35%;
+  justify-content: space-between;
+}
+
+.buttons-container button {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#btn-hire {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+#btn-projects {
+  background-color: #000;
+  color: #fff;
+  border: 0px solid;
+}
